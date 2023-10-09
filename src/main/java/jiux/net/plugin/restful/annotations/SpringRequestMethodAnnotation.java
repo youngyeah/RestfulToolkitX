@@ -2,6 +2,11 @@ package jiux.net.plugin.restful.annotations;
 
 
 public enum SpringRequestMethodAnnotation {
+
+    /**
+     * ApiV2Method
+     */
+    APIV2_METHOD("com.starcharge.app.anno.ApiV2Method", null),
     /**
      * RequestMapping
      */
